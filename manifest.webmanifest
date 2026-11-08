@@ -1,0 +1,19 @@
+{
+  "name": "Bioferia 2027 · Ni muy muy, ni tan tan",
+  "short_name": "Bioferia",
+  "description": "Explorá la feria, participá en experiencias y compartí el plástico que te sobra.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f5f0",
+  "theme_color": "#003b94",
+  "lang": "es-AR",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

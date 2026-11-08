@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#003b94">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>Bioferia 2027 · Ni muy muy, ni tan tan</title>
+  <meta name="description" content="Explorá el predio, descubrí la guía, participá en experiencias y compartí el plástico que te sobra.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="mobile.css">
+  <link rel="stylesheet" href="identity.css">
+  <link rel="stylesheet" href="layout-v2.css">
+  <link rel="stylesheet" href="juegos.css">
+  <link rel="stylesheet" href="poster.css">
+  <link rel="stylesheet" href="hecho.css">
+  <link rel="stylesheet" href="intercambio.css">
+  <link rel="stylesheet" href="unified.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="topbar-row">
+        <button class="brand" type="button" data-go="home" aria-label="Bioferia, ir al inicio">
+          <img src="assets/bioferia-logo.png" alt="Bioferia">
+          <span class="brand-tagline">NI MUY MUY,<br>NI TAN TAN.</span>
+        </button>
+        <div class="topbar-actions">
+          <button class="round-button account-button" type="button" data-go="profile" aria-label="Mi perfil"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2"/><path d="M5.5 21v-1.3a6.5 6.5 0 0 1 13 0V21"/></svg></button>
+          <button class="round-button" type="button" data-go="saved" aria-label="Artículos guardados"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5 3.5 12a5.2 5.2 0 0 1 7.6-7.1L12 6l.9-1.1A5.2 5.2 0 0 1 20.5 12z"/></svg><b id="saved-count"></b></button>
+        </div>
+      </div>
+    </header>
+    <main id="app-content" class="app-content" aria-live="polite" tabindex="-1"></main>
+    <nav id="app-nav" class="app-nav" aria-label="Navegación principal"></nav>
+  </div>
+  <script src="mobile.js" defer></script>
+  <script src="juegos.js" defer></script>
+  <script src="laboratorio.js" defer></script>
+  <script src="poster.js" defer></script>
+  <script src="intercambio.js" defer></script>
+  <script src="carousel.js" defer></script>
+</body>
+</html>
